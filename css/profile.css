@@ -7,7 +7,8 @@
 }
 
 body {
-    font-family: 'CARIBRI';
+    /* font-family: 'CARIBRI'; */
+    font-family: Arial, Helvetica, sans-serif;
     background: #001CB3;
     color: #fff;
     overflow-x: hidden;
@@ -29,7 +30,7 @@ body {
 
 .intro {
     background: #FF7F50;
-    padding: 100px 0;
+    padding: 70px 0 50px 0;
 }
 
 .container {
@@ -41,6 +42,12 @@ body {
 
 h1 {
     font-size: 2.5rem;
+}
+
+#timeline-title {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 /* TIMELINE */
@@ -120,12 +127,19 @@ time {
 .type {
     display: block;
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .detail {
     display: block;
     font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.summary {
+    display: block;
+    font-size: 1rem;
+    margin-top: 15px;
 }
 
 
