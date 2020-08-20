@@ -12,7 +12,7 @@ body {
     background: #001CB3;
     color: #fff;
     overflow-x: hidden;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
 
 #home {
@@ -25,8 +25,6 @@ body {
     color: white;
     text-align: center;
 }
-
-/* INTRO SECTION */
 
 .intro {
     background: #FF7F50;
@@ -49,8 +47,6 @@ h1 {
     font-size: 30px;
     font-weight: 900;
 }
-
-/* TIMELINE */
 
 .timeline ul {
     background: #001CB3;
@@ -142,9 +138,6 @@ time {
     margin-top: 15px;
 }
 
-
-/* EFFECTS */
-
 .timeline ul li::after {
     transition: background .5s ease-in-out;
 }
@@ -159,22 +152,11 @@ time {
     transition: all .5s ease-in-out;
 }
 
-.timeline ul li:nth-child(odd) div {
-    transform: translate3d(200px, 0, 0);
-}
-
-.timeline ul li:nth-child(even) div {
-    transform: translate3d(-200px, 0, 0);
-}
-
 .timeline ul li.in-view div {
     transform: none;
     visibility: visible;
     opacity: 1;
 }
-
-
-/* GENERAL MEDIA QUERIES */
 
 @media screen and (max-width: 900px) {
     .timeline ul li div {
