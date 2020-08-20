@@ -87,13 +87,13 @@ html, body {
 }
 
 .intro-text-area {
-    width: 530px;
+    width: 500px;
 }
 
 .intro-text-area > p {
     text-align: center;
-    font-size: 22px;
-    margin: 0 0 4px 0;
+    font-size: 28px;
+    margin: 0;
 }
 
 .link-btn-area {
@@ -142,5 +142,13 @@ html, body {
 @media (max-width: 450px) {
     .link-btn-area {
         grid-template-columns: 85px 85px 85px;
+    }
+
+    .intro-text-area {
+        width: 97%;
+    }
+
+    .intro-text-area > p {
+        font-size: 20px;
     }
 }
