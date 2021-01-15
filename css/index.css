@@ -112,31 +112,12 @@ html, body {
     font-size: 58px;
     text-align: center;
     color: rgb(255, 255, 255);
-    border-radius: 15px;
+    border-radius: 8px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.link-btn-area > #profile {
-    background-color: rgb(245, 47, 47);
-}
-
-.link-btn-area > #github {
-    background-color: rgb(247, 174, 39);
-}
-
-.link-btn-area > #linkedin {
-    background-color: rgb(17, 179, 17);
-}
-
-.link-btn-area > #blog {
-    background-color: rgb(21, 107, 235);
-}
-
-.link-btn-area > #mail {
-    background-color: rgb(167, 21, 167);
+    background-color: rgb(70, 70, 70);
 }
 
 @media (max-width: 450px) {
