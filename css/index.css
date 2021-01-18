@@ -134,6 +134,12 @@ html, body {
     backface-visibility: hidden;
 }
 
+.link-btn-front > span, .link-btn-back > span {
+    min-height: 58px;
+    display: inline-flex;
+    align-items: center;
+}
+
 .link-btn-front {
     background-color: black;
 }
