@@ -166,7 +166,6 @@ html, body {
     .link-btn-area {
         grid-template-columns: 85px 85px 85px;
         grid-gap: 12px;
-        justify-content: center;
     }
 
     .intro-text-area {
@@ -177,7 +176,7 @@ html, body {
         font-size: 20px;
     }
 
-    .fas .fab {
+    .fas, .fab {
         vertical-align: middle;
     }
 }
