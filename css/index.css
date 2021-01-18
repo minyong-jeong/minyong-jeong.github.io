@@ -102,7 +102,6 @@ html, body {
     display: grid;
     grid-template-columns: 85px 85px 85px 85px 85px;
     grid-gap: 8px;
-    justify-items: center;
     justify-content: center;
 }
 
@@ -133,11 +132,6 @@ html, body {
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-}
-
-.link-btn-front i, .link-btn-back i {
-    justify-items: center;
-    justify-content: center;
 }
 
 .link-btn-front {
@@ -172,6 +166,7 @@ html, body {
     .link-btn-area {
         grid-template-columns: 85px 85px 85px;
         grid-gap: 12px;
+        justify-content: center;
     }
 
     .intro-text-area {
