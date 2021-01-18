@@ -176,4 +176,8 @@ html, body {
     .intro-text-area > p {
         font-size: 20px;
     }
+
+    .fas .fab {
+        vertical-align: middle;
+    }
 }
