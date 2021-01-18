@@ -118,7 +118,6 @@ html, body {
 }
 
 .link-btn .link-btn-inner {
-    position: absolute;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     border: none;
@@ -130,6 +129,9 @@ html, body {
 
 .link-btn-front {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgb(255, 255, 255);
     width: 85px;
     height: 85px;
@@ -141,6 +143,9 @@ html, body {
 
 .link-btn-back {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgb(255, 255, 255);
     width: 85px;
     height: 85px;
