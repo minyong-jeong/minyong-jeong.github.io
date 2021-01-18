@@ -98,7 +98,7 @@ html, body {
 
 .link-btn-area {
     width: 100%;
-    margin-top: 30px;
+    padding-top: 30px;
     display: grid;
     grid-template-columns: 85px 85px 85px 85px 85px;
     grid-gap: 8px;
@@ -174,9 +174,5 @@ html, body {
 
     .intro-text-area > p {
         font-size: 20px;
-    }
-
-    .fas, .fab {
-        vertical-align: middle;
     }
 }
